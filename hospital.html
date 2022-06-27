@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<link href="css/bootstrap5/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link class="main-stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+*{
+      font-style: roboto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows:minmax(160px, auto);
+  grid-gap: 5px;
+
+}
+
+.grid-item {
+  border : 2px solid black;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size : 1.2vw;
+}
+
+.onePerRow {
+  grid-column: span 6;
+}
+/*2 pictures per row*/
+.twoPerRow {
+  grid-column: span 3;
+}
+
+/*3 pictures per row*/
+.threePerRow{
+  grid-column: span 2;
+}
+
+.onePerColumn{
+  grid-column: span 3;
+  grid-row: span 4;
+}
+
+.twoPerColumn{
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.grid-item img{
+  width:100%;
+  height:94%;
+  object-fit:cover;
+}
+
+
+
+</style>
+<script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+<body>
+<div class="grid-container">
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Highlight/1 Gleneagles Medini Hospital.jpg"></img>Gleneagles Medini Hospital</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Highlight/2 KPJ Damansara Specialist Hospital.jpg"></img>KPJ Damansara Specialist Hospital</div>
+  <div class="grid-item onePerRow"><img style="height:97%!important;" src="images/projects/hospital/Hospital Highlight/8 Sunway Medical Centre Cheras.jpg"></img>Sunway Medical Centre</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Highlight/9 Viet Duet Hospital Vietnam.JPG"></img>Benh Vien Khach San Tam Anh Hospital</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Highlight/10 Woman And Child Hospital Brunei.jpg"></img>Women and Children Hospitals</div>
+  <div class="grid-item onePerRow"><img style="height:97%!important;"  src="images/projects/hospital/Hospital Highlight/4 Hospital Kuala Lumpur.jpg"></img>Hospital Kuala Lumpur</div>
+  <div class="grid-item onePerRow"><img style="height:97%!important;"  src="images/projects/hospital/Hospital Highlight/3 IMU Hospital Bukit Jalil.png"></img>IMU Hospital Bukit Jalil</div>
+  <div class="grid-item onePerRow"><img style="height:96%!important;"  src="images/projects/hospital/Hospital Highlight/5 Thompson Hospital Kota Damansara Selangor.jpg"></img>Thompson Hospital Kota Damansara</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Highlight/6 Sarawak Hospital.jpeg"></img>Sarawak Hospital</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Highlight/9 Viet Duet Hospital Vietnam.JPG"></img>Vien Duet Hospital</div>
+  <div class="grid-item onePerColumn"><img style="height:97%!important;" src="images/projects/hospital/Hospital Others/KPJ Shah Alam.png"></img>KPJ Shah Alam</div>
+  <div class="grid-item twoPerColumn"><img src="images/projects/hospital/Hospital Others/Hospital Dato Onn JB.jpg"></img>Hospital Dato Onn</div>
+  <div class="grid-item twoPerColumn"><img src="images/projects/hospital/Hospital Others/RIPAS BRUNEI.jpg"></img>Ripas Brunei</div>
+  <div class="grid-item threePerRow"><img src="images/projects/hospital/Hospital Others/KL healthcare centre.jpg"></img>KL Healthcare Centre</div>
+  <div class="grid-item threePerRow"><img src="images/projects/hospital/Hospital Others/Hospital serdang.jpg"></img>Hospital Serdang</div>
+  <div class="grid-item threePerRow"><img src="images/projects/hospital/Hospital Others/Prince Court Hosp.jpg"></img>Prince Court Hospital</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Others/Hospital Shah Alam.jpg"></img>Hospital Shah Alam</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Others/Hospital Temerloh.jpg"></img>Hospital Temerloh</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;" src="images/projects/hospital/Hospital Others/Hospital Cyberjaya.jpg"></img>Hospital Cyberjaya</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;" src="images/projects/hospital/Hospital Others/AL Shamal Health Centre Qatra.jpg"></img>Al Shamal Healthcare Centre</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Others/Island Hospital.jpg"></img>Island Hospital</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/hospital/Hospital Others/Hospital Sg Petani.png"></img>Hospital Sungai Petani</div>
+  <div class="grid-item onePerRow"><img style="height:97%!important;" src="images/projects/hospital/Hospital Others/Ampang Putri Hosp.jpg"></img>Ampang Putri Hospital</div>
+
+
+</div>
+</body>
+</html>

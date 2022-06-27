@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<link href="css/bootstrap5/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link class="main-stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+*{
+      font-style: roboto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows:minmax(160px, auto);
+  grid-gap: 5px;
+
+}
+
+.grid-item {
+  border : 2px solid black;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size : 1.2vw;
+}
+
+.onePerRow {
+  grid-column: span 6;
+}
+/*2 pictures per row*/
+.twoPerRow {
+  grid-column: span 3;
+}
+
+/*3 pictures per row*/
+.threePerRow{
+  grid-column: span 2;
+}
+
+.onePerColumn{
+  grid-column: span 3;
+  grid-row: span 4;
+}
+
+.twoPerColumn{
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.grid-item img{
+  width:100%;
+  height:94%;
+  object-fit:cover;
+}
+
+
+
+</style>
+<script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+<body>
+<div class="grid-container">
+  <div class="grid-item onePerRow"><img style="height:97%!important;" src="images/projects/airport/highlights/1, 3 KLIA Airport.jpg"></img>KLIA Airport</div>
+    <div class="grid-item onePerColumn"><img style="height:98%!important;" src="/images/projects/airport/highlights/4 KLIA 2 Radio Control Tower.jpg"></img>KLIA 2 Radio Control Tower</div>
+    <div class="grid-item twoPerColumn"><img style="height:96%!important;" src="images/projects/airport/highlights/6 Tan Soon Nhat Airport Vietnam.jpg"></img>Tan Soon Nhat Airport Vietnam</div>
+    <div class="grid-item twoPerColumn"><img style="height:96%!important;"  src="images/projects/airport/highlights/8 Brunei Airport.jpg"></img>Brunei Airport</div>
+  <div class="grid-item onePerRow"><img style="height:96%!important;" src="images/projects/airport/highlights/2. Kota Kinabalu International Airport.jpg"></img>Kota Kinabalu International Airport</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;"  src="/images/projects/airport/highlights/7 Phnom Penh Airport.jpg"></img>Phnom Penh Airport</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;" src="images/projects/airport/highlights/thumbs/5 Skypark KL.jpg"></img>Skypark KL</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;" src="images/projects/airport/thumbs/KUCHING INT AIPORT.jpg"></img>KUCHING INT AIPORT</div>
+  <div class="grid-item twoPerRow"><img  style="height:97%!important;" src="images/projects/airport/thumbs/LANGKAWI AIPORT.jpg"></img>LANGKAWI AIPORT</div>
+  <div class="grid-item twoPerRow"><img  style="height:96%!important;" src="images/projects/airport/PENANG INT AIPORT.jpg"></img>PENANG INT AIPORT</div>
+  <div class="grid-item twoPerRow"><img src="/images/projects/airport/AEROTEL.jpg"></img>AEROTEL</div>
+  <div class="grid-item twoPerRow"><img style="height:95%!important;"  src="/images/projects/airport/highlights/9. Mongolia Airport.jpg"></img>Mongolia Airport</div>
+  <div class="grid-item twoPerRow"><img src="/images/projects/airport/highlights/10. KLIA 2 Mall.jpg"></img>KLIA 2 Mall</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;" src="images/projects/airport/BINTULU AIRPORT.jpg"></img>BINTULU AIRPORT</div>
+  <div class="grid-item twoPerRow"><img style="height:97%!important;" src="images/projects/airport/thumbs/KUALA TERENGGANU AIRPORT.jpg"></img>KUALA TERENGGANU AIRPORT</div>
+</div>
+</body>
+</html>

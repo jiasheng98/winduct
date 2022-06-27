@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<link href="css/bootstrap5/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link class="main-stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+*{
+      font-style: roboto;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows:minmax(160px, auto);
+  grid-gap: 5px;
+
+}
+
+.grid-item {
+  border : 2px solid black;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size : 1.2vw;
+}
+
+.onePerRow {
+  grid-column: span 6;
+}
+/*2 pictures per row*/
+.twoPerRow {
+  grid-column: span 3;
+}
+
+/*3 pictures per row*/
+.threePerRow{
+  grid-column: span 2;
+}
+
+.onePerColumn{
+  grid-column: span 3;
+  grid-row: span 4;
+}
+
+.twoPerColumn{
+  grid-column: span 3;
+  grid-row: span 2;
+}
+
+.grid-item img{
+  width:100%;
+  height:94%;
+  object-fit:cover;
+}
+
+
+
+</style>
+<script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+<body>
+<div class="grid-container">
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/14 TRX Development.jpg"></img>TRX DEVELOPMENT</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/1 Pavillion KL.jpg"></img>PAVILLION, KUALA LUMPUR</div>
+  <div class="grid-item threePerRow"><img style="height:93%!important;" src="images/projects/mixed developments/Mix Development Highlight/thumbs/4 IOI Putrajaya.jpg"></img>IOI PUTRAJAYA</div>
+  <div class="grid-item threePerRow"><img style="height:93%!important;" src="images/projects/mixed developments/Mix Development Highlight/thumbs/3 KL Eco City.jpg"></img>KL ECO CITY</div>
+  <div class="grid-item threePerRow"><img style="height:93%!important;" src="images/projects/mixed developments/Mix Development Highlight/thumbs/7 KL Sentral.jpg"></img>KL SENTRAL</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/2 Tropicana Garden Phase 1.jpg"></img>tropicana garden phase 1</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/9 City of Dreams Manilla Philippines.jpg"></img>city of dreams, manila phillipines</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/10 Genting Highlands.jpg"></img>genting highlands</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/5 BBCC KL.jpg"></img>bbcc kuala lumpur</div>
+  <div class="grid-item onePerRow"><img style="height:97%!important;" src="images/projects/mixed developments/Mix Development Highlight/thumbs/8 The Pearl Qatar.jpg"></img>the pearl, qatar</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/11 Sunsuria Development.jpg"></img>sunsuria development</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/6 jesselton quay.jpg"></img>jesselton quay</div>
+  <div class="grid-item onePerRow"><img  style="height:96%!important;" src="images/projects/mixed developments/Mix Development Others/thumbs/bandar sunway city.jpg"></img>bandar sunway city</div>
+  <div class="grid-item onePerColumn"><img style="height:97%!important;" src="images/projects/mixed developments/Mix Development Others/thumbs/caputal square kl.jpg"></img>capital square</div>
+  <div class="grid-item twoPerColumn"><img src="images/projects/mixed developments/Mix Development Others/thumbs/icon city.jpg"></img>icon city</div>
+  <div class="grid-item twoPerColumn"><img src="images/projects/mixed developments/Mix Development Others/thumbs/Gamuda walk.jpg"></img>gamuda walk</div>
+  <div class="grid-item onePerColumn"><img  style="height:97%!important;" src="images/projects/mixed developments/Mix Development Others/thumbs/axis business park.jpg"></img>axis business park</div>
+  <div class="grid-item twoPerColumn"><img src="images/projects/mixed developments/Mix Development Others/thumbs/UOA Bangsar.jpg"></img>uoa bangsar</div>
+  <div class="grid-item twoPerColumn"><img src="images/projects/mixed developments/Mix Development Others/thumbs/PAV Damansara.jpg"></img>pavillion damansara</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Others/thumbs/KL Gateway.jpg"></img>kl gateway</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Others/thumbs/setia walk puchong.jpg"></img>setia walk puchong</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Others/thumbs/rio city.jpg"></img>rio city</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Others/thumbs/midvalley megamall.jpg"></img>midvalley megamall</div>
+</div>
+</body>
+</html>

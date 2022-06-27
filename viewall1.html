@@ -1,0 +1,180 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<link href="css/bootstrap5/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link class="main-stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+*{
+      font-style: roboto;
+}
+
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+ .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+ .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.grid-item {
+  border : 2px solid black;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size : 1.2vw;
+}
+
+body {
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100%;        /* Viewport-relative units */
+    width: 100%;
+}
+
+.grid-item img {
+  height:94%!important;
+}
+
+
+
+
+</style>
+<script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+
+<body>
+<div class="grid-container">
+  <!--<div class="row">
+    <div class="column">
+      <div class="grid-item"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/14 TRX Development.jpg">trx development</div>
+      <div class="grid-item"><img src="images/projects/high rise/High Rise Highlights/4 Merdeka PNB 118 Tower.jpg"> Merdeka PNB 118 Tower</div>
+      <div class="grid-item"><img src="images/projects/stadium and public centre/first/26.FIFA Al-Wakrah Stadium Qatar.jpg">FIFA Al-Wakrah Stadium Qatar</div>
+      <div class="grid-item"><img src="images/projects/malls/Mall Highlight/11 Diamond Mall Cambodia.jpg">11 Diamond Mall Cambodia</div>
+      <div class="grid-item"><img src="images/projects/bank admin govt/first/24.The Supreme People_s Court Vietnam.jpg">tThe Supreme People's Court Vietnam</div>
+      <div class="grid-item"><img src="images/projects/hotel/Hotel Highlights/Shangri la hotel.webp">Shangri la hotel</div>
+
+
+    </div>
+    <div class="column">
+      <div class="grid-item"><img src="images/projects/airport/highlights/1, 3 KLIA Airport.jpg">KLIA Airport</div>
+      <div class="grid-item"><img src="images/projects/mixed developments/Mix Development Others/bandar sunway city.jpg">Bandar Sunway City</div>
+      <div class="grid-item"><img src="images/projects/malls/Mall Highlight/10 Pavillion Damansara.jpg">Pavillion Damansara</div>
+      <div class="grid-item"><img src="images/projects/high rise/High Rise Highlights/8 Qipco Tornado Towers Doha.jpg">ipco Tornado Towers Dohat</div>
+      <div class="grid-item"><img src="images/projects/commercial/first/14 HBK Qatar.jpg">HBK Qatar</div>
+      <div class="grid-item"><img src="images/projects/infrastructures/first/11 Chile Hydroelectric Power Station Alto Maipo.jpg">Chile Hydroelectric Power Station Alto Maipo</div>
+
+    </div>
+    <div class="column">
+      <div class="grid-item"><img src="images/projects/commercial/first/23. Air Asia House KLIA.jpg">Air Asia House KLIA</div>
+      <div class="grid-item"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/5 BBCC KL.jpg">BBCC KL</div>
+      <div class="grid-item"><img src="images/projects/factory and warehouse/first/19.Robert Bosch Factory Penang.jpg">Robert Bosch Factory Penang</div>
+      <div class="grid-item"><img src="images/projects/bank admin govt/first/29.MINDEF HQ Brunei.jpg">MINDEF HQ Brunei</div>
+      <div class="grid-item"><img src="images/projects/hospital/Hospital Highlight/5 Thompson Hospital Kota Damansara Selangor.jpg">Thompson Hospital Kota Damansara Selangor</div>
+      <div class="grid-item"><img src="images/projects/infrastructures/first/7 MCC Territory _ Transport Interchange Manakau.jpg">MDC Territory Transport Interchange Manakau</div>
+    </div>
+    <div class="column">
+      <div class="grid-item"><img src="images/projects/stadium and public centre/first/25.Stadium Multipurpose Hall, Lusail, Qatar.jpg">Stadium Multipurpose Hall, Lusail, Qatar</div>
+      <div class="grid-item"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/10 Genting Highlands.jpg">Genting Highlands</div>
+      <div class="grid-item"><img src="images/projects/factory and warehouse/first/52 Keppel Data Center Sedenak JB.jpg">Keppel Data Center Sedenak JB</div>
+      <div class="grid-item"><img src="images/projects/bank admin govt/first/29.MINDEF HQ Brunei.jpg">MINDEF HQ Brunei.jpg</div>
+      <div class="grid-item"><img src="images/projects/high rise/High Rise Highlights/1 Suria KLCC.jpg">Suria KLCC</div>
+      <div class="grid-item"><img src="images/projects/infrastructures/first/8 Doha Metroline Qatar.jpg">Doha Metroline Qatar</div>
+      <div class="grid-item"><img src="images/projects/factory and warehouse/first/15.B.Braun ll Penang.jpg">BBraun II Penang</div>
+    </div>
+  </div>-->
+  <div class="grid-item onePerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/14 TRX Development.jpg">trx development</div>
+  <div class="grid-item threePerRow"><img src="images/projects/high rise/High Rise Highlights/4 Merdeka PNB 118 Tower.jpg"></img>merdeka pnb 118</div>
+  <div class="grid-item threePerRow"><img src="images/projects/airport/highlights/1, 3 KLIA Airport.jpg"></img>klia airport</div>
+  <div class="grid-item threePerRow"><img src="images/projects/commercial/first/23. Air Asia House KLIA.jpg"></img>air asia house klia</div>
+  <div class="grid-item onePerRow"><img src="images/projects/stadium and public centre/first/25.Stadium Multipurpose Hall, Lusail, Qatar.jpg"></img>stadium multipurpose</div>
+  <div class="grid-item onePerRow"><img src="images/projects/stadium and public centre/first/26.FIFA Al-Wakrah Stadium Qatar.jpg"></img>fifa al-wakrah stadium qatar</div>
+  <div class="grid-item onePerRow"><img src="images/projects/mixed developments/Mix Development Others/bandar sunway city.jpg"></img>bandar sunway city</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/5 BBCC KL.jpg"></img>bbcc development</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/mixed developments/Mix Development Highlight/thumbs/10 Genting Highlands.jpg"></img>genting highlands</div>
+  <div class="grid-item onePerRow"><img src="images/projects/malls/Mall Highlight/11 Diamond Mall Cambodia.jpg"></img>diamond mall cambodia</div>
+  <div class="grid-item onePerRow"><img src="images/projects/malls/Mall Highlight/10 Pavillion Damansara.jpg"></img>pavillion damansara</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/factory and warehouse/first/19.Robert Bosch Factory Penang.jpg"></img>robert bosch</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/factory and warehouse/first/52 Keppel Data Center Sedenak JB.jpg"></img>keppel data centre</div>
+  <div class="grid-item onePerRow"><img src="images/projects/bank admin govt/first/24.The Supreme People_s Court Vietnam.jpg"></img>the supreme people's court</div>
+  <div class="grid-item threePerRow"><img src="images/projects/high rise/High Rise Highlights/8 Qipco Tornado Towers Doha.jpg"></img>qipco tornado tower one col</div>
+  <div class="grid-item threePerRow"><img src="images/projects/bank admin govt/first/29.MINDEF HQ Brunei.jpg"></img>mindef hq brunei</div>
+  <div class="grid-item threePerRow"><img src="images/projects/hotel/Hotel Highlights/Shangri la hotel.webp"></img>shangri-la hotel</div>
+  <div class="grid-item onePerRow"><img src="images/projects/commercial/first/14 HBK Qatar.jpg"></img>hbk qatar</div>
+  <div class="grid-item onePerRow"><img src="images/projects/hospital/Hospital Highlight/5 Thompson Hospital Kota Damansara Selangor.jpg"></img>thompson hospital kota damansara</div>
+  <div class="grid-item onePerRow"><img src="images/projects/infrastructures/first/8 Doha Metroline Qatar.jpg"></img>doha metro line qatar</div>
+  <div class="grid-item onePerRow"><img src="images/projects/high rise/High Rise Highlights/1 Suria KLCC.jpg"></img>klcc towers</div>
+  <div class="grid-item onePerRow"><img src="images/projects/factory and warehouse/first/15.B.Braun ll Penang.jpg"></img>bbraun II penang</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/infrastructures/first/11 Chile Hydroelectric Power Station Alto Maipo.jpg"></img>chile alto maipo hydropower</div>
+  <div class="grid-item twoPerRow"><img src="images/projects/infrastructures/first/7 MCC Territory _ Transport Interchange Manakau.jpg"></img>mdcc-territory transport interchange manakau</div>
+</div>
+
+
+</body>
+<div id="mixdev"></div>
+<div id="highrise"></div>
+<div id="factory"></div>
+<div id="infrastructure"></div>
+<div id="hospital"></div>
+<div id="airport"></div>
+<div id="university"></div>
+<div id="mall"></div>
+<div id="bank"></div>
+<div id="residential"></div>
+<div id="stadium"></div>
+<div id="hotel"></div>
+<div id="commercial"></div>
+<div id="others"></div>
+<script>
+    $(document).ready( function() {
+      $("#mixdev").load("mixeddevelopment.html");
+      $("#highrise").load("highrise.html");
+      $("#factory").load("factory.html");
+      $("#infrastructure").load("infrastructure.html");
+      $("#hospital").load("hospital.html");
+      $("#airport").load("airport.html");
+      $("#university").load("university.html");
+      $("#mall").load("mall.html");
+      $("#bank").load("bank.html");
+      $("#residential").load("residential2.html");
+      $("#stadium").load("stadium.html");
+      $("#hotel").load("hotel.html");
+      $("#commercial").load("commercial.html");
+      $("#others").load("others.html");
+    });
+
+</script>
+
+</html>

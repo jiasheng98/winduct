@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+</head>
+<link href="css/bootstrap5/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style>
+
+body {
+    font: 'Roboto';
+}
+
+.container-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-item:center;
+  align-content: center;
+
+}
+
+.container-1 div, .container-2 div {
+  border : 1px #ccc solid;
+
+}
+
+.flexbox-item {
+  margin: 10px;
+
+}
+
+.caption {
+  background-color:black;
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align:center;
+
+}
+
+.container-2{
+  display: flex;
+  justify-content: space-around;
+  align-item:center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+.box-1-1{flex:1}
+.box-1-2{flex:1}
+.box-2-1{flex:0.5}
+.box-2-2{flex:0.5}
+.box-2-3{flex:0.5}
+
+.container-1 .flexbox-item img {
+  height: 500px;
+  width: 625px;
+  text-align:center;
+}
+
+.container-2 .flexbox-item img {
+  height: 500px;
+  width: 410px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+
+</style>
+<script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+<body>
+<div class="container">
+<h1>Hello World</h1>
+
+
+
+<div class="container-1">
+  <div class="flexbox-item box-1-1">
+    <img src="images/projects/mixed developments/Mix Development Highlight/thumbs/14 TRX Development.jpg"></img>
+    <div class="caption">trx development</div>
+  </div>
+  <div class="flexbox-item box-1-2">
+    <img src="images/projects/mixed developments/Mix Development Highlight/thumbs/1 Pavillion KL.jpg""></img>
+    <div class="caption">pavillion, kuala lumpur</div>
+  </div>
+</div>
+
+<div class="container-2">
+  <div class="flexbox-item box-2-1">
+    <img src="images/projects/mixed developments/Mix Development Highlight/thumbs/4 IOI Putrajaya.jpg"></img>
+    <div class="caption">ioi putrajaya</div>
+  </div>
+  <div class="flexbox-item box-2-2">
+  <img src="images/projects/mixed developments/Mix Development Highlight/thumbs/3 KL Eco City.jpg"></img>
+    <div class="caption">kl eco city</div>
+  </div>
+  <div class="flexbox-item box-2-3">
+  <img src="images/projects/mixed developments/Mix Development Highlight/thumbs/7 KL Sentral.jpg"></img>
+    <div class="caption">kl sentral</div>
+  </div>
+</div>
+</div>
+</body>
+</html>
