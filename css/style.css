@@ -10456,3 +10456,10 @@ h1 {
 
 	}
 }
+
+.slide-img {
+    object-fit: cover;
+    height: 600px;
+    object-position: top;
+}
+
