@@ -10468,3 +10468,12 @@ h1 {
     margin: auto;
 }
 
+.winductstory {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.winduct-story-container {
+    display: flex;
+    flex-direction: column;
+}
