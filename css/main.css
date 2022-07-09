@@ -2350,7 +2350,7 @@ button:disabled,
     cursor: pointer;
     outline: 0;
     overflow: hidden;
-    color: white !important;
+    color: white;
 }
 
 .front_thumbnails a img {
