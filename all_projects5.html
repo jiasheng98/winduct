@@ -672,9 +672,7 @@ background-color: black!important;
 </center>
 </div><!--end of main-->
 </div><!-- container page-->
-  <footer id ="ftr">
-
-  </footer>
+<section class="p-b-40 p-t-40 xs-p-b-20 bg-master-darker" id ="ftr"></section>
 </div><!-- end of div id wrapper-->
 
 
@@ -695,7 +693,7 @@ background-color: black!important;
 	  //  $(".spinner-border").show();
     $(".projects-menubar").hide();
 
-      $("footer").load("footer.html",()=>{
+      $("#ftr").load("footer.html",()=>{
           $(".currentYear").text(new Date().getFullYear());
       });
       //disable scroll
