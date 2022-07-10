@@ -10478,3 +10478,7 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+
+.footer-col-lf>img {
+    margin: 0 .5rem;
+}
