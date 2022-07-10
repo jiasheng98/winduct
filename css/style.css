@@ -520,7 +520,7 @@ margin-top: 80px;}
     font-family: 'Montserrat';
     padding-right: 21px;
     display: block;
-	font-weight: bold;
+	font-weight: 700 !important;
 }
 
 .header .menu>li>a span {
