@@ -228,7 +228,7 @@ body.pace-white .pace .pace-progress {
 }
 
 .header.dark {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .header.dark .menu>li>a:not(.btn) {

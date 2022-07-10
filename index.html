@@ -15,6 +15,7 @@
     <meta name="robots" content="follow, all" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -335,7 +336,7 @@
     </div>
     <div class="pace-activity"></div>
   </div>
-    <nav class="header bg-header transparent-dark" data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark">
+    <nav class="header bg-header transparent-dark" data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark" id="site-header">
         <div class="container relative">
             <div class="pull-left">
                 <div class="header-inner"><a href="index.html"><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="logo" alt=""><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="alt" alt=""></a></div>
@@ -750,7 +751,7 @@
 
               </div>
         </section>
-        <section class="p-b-55 p-t-75 xs-p-b-20 bg-master-darker" id ="ftr"></section>
+        <section class="p-b-30 p-t-30 xs-p-b-20 bg-master-darker" id ="ftr"></section>
         </div>
 
       </div>
@@ -804,6 +805,60 @@ function showSlides() {
                     function currentSlide(n) {
                       showSlides(slideIndex = n);
                     }
+
+                    (function(){
+
+var doc = document.documentElement;
+var w = window;
+
+var prevScroll = w.scrollY || doc.scrollTop;
+var curScroll;
+var direction = 0;
+var prevDirection = 0;
+
+var header = document.getElementById('site-header');
+
+var checkScroll = function() {
+
+  /*
+  ** Find the direction of scroll
+  ** 0 - initial, 1 - up, 2 - down
+  */
+
+  curScroll = w.scrollY || doc.scrollTop;
+  if (curScroll > prevScroll) { 
+    //scrolled up
+    direction = 2;
+  }
+  else if (curScroll < prevScroll) { 
+    //scrolled down
+    direction = 1;
+  }
+
+  if (direction !== prevDirection) {
+    toggleHeader(direction, curScroll);
+  }
+  
+  prevScroll = curScroll;
+};
+
+var toggleHeader = function(direction, curScroll) {
+  if (direction === 2 && curScroll > 2000) { 
+    
+    //replace 52 with the height of your header in px
+
+    header.classList.add('hide');
+    prevDirection = direction;
+  }
+  else if (direction === 1) {
+    header.classList.remove('hide');
+    prevDirection = direction;
+  }
+};
+
+window.addEventListener('scroll', checkScroll);
+
+})();
 
         </script>
 
