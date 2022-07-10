@@ -7,8 +7,6 @@
 <title>WinDuct® - Malaysia Project and Contribution</title><meta name=keywords content="MiTEC, First World Hotel, Pavilion, KLIA2, Sunway Pyramid, St. Regis Hotel, Teega Residence, WinDuct®"><meta name=description content="WindDuct installed in many of Malaysia's most prestigious buildings, including MiTEC, First World Hotel, Pavilion, KLIA2, Sunway Pyramid, St. Regis Hotel and Teega Residence."><meta name=og:url content="http://winduct.com/project_references_local.html" /><meta name=og:title content="WinDuct® - Malaysia Project and Contribution"><meta name=og:description content="WindDuct installed in many of Malaysia's most prestigious buildings, including MiTEC, First World Hotel, Pavilion, KLIA2, Sunway Pyramid, St. Regis Hotel and Teega Residence."><meta name=rights content=WinDuct®><meta property="og:site_name" content="WinDuct® - Malaysia Project and Contribution" /><!-- InstanceEndEditable -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script type="text/javascript" async="" src="js/ga.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -50,17 +48,17 @@
           overflow:none;
         }
 
+/* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   width:100%!important;
   overflow-y:none;
   margin: 0;
   font: Roboto;
-  overflow-x: hidden !important;
 }
 
 .row {
-  max-width: 0px!important;
+  max-witdh: 0px!important;
 }
 
 #navbarNav {
@@ -68,6 +66,7 @@ body, html {
   margin-left: auto!important;
 }
 
+/* Style tab links */
 .tablink {
   background-color: white;
   color: black;
@@ -86,6 +85,7 @@ body, html {
   box-shadow: inset 0 -4px 0 0 black;
 }
 
+/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white!important;
   display: none;
@@ -101,17 +101,15 @@ position: fixed!important;
 top: 250!important;
 width: 98%!important;
 margin-bottom: 700px!important;
-z-index: 5;
-width: max-content;
 }
 
 .projects-menubar button:hover{
   font-weight: bold!important;
-  /* box-shadow: inset 0 -4px 0 0 black!important; */
+  box-shadow: inset 0 -4px 0 0 black!important;
   color: black!important;
-  /* float:  center!important; */
+  float:  center!important;
   border: red!important;
-  /* outline: 1 px!important; */
+  outline: 1 px!important;
   cursor: pointer!important;
 }
 
@@ -140,21 +138,19 @@ div #categories .col-sm-3{
 .winduct_content{
   height: 250px!important;
 }
+/*project highlight gallery css ENDS here*/
 
 .fixed {
     position:fixed!important;
     top:0!important;
-    margin-top:100px!important;
-    left: 15px;
+    margin-top:63px!important;
 
 }
 
 .thebuttons{
      text-align:center!important;
-     /* margin-left:auto!important; */
-     /* margin-right:auto!important; */
-     display: flex;
-     flex-direction: column;
+     margin-left:auto!important;
+     margin-right:auto!important;
 }
 
 h1 {
@@ -180,6 +176,7 @@ h1 {
 .responsive {
   width:auto!important;
   height: auto!important;
+  /*min-width:1250px!important;*/
 }
 
 .responsive-banner {
@@ -219,6 +216,9 @@ background-color: black!important;
     }
 }
 
+
+
+/** ALL FLEX AND GALLERY GRID ENDS HERE **/
 .left {
     float: start;
 }
@@ -226,10 +226,219 @@ background-color: black!important;
 .right {
     float: end;
 }
+/*
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+
+	z-index: 2000;
+	position: fixed;
+	margin: auto;
+	top: 12px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.pace .pace-progress {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+
+	display: block;
+	position: absolute;
+	right: 100%;
+	margin-right: -7px;
+	width: 93%;
+	top: 7px;
+	height: 14px;
+	font-size: 12px;
+	background: #29d;
+	color: #29d;
+	line-height: 60px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+
+	-webkit-box-shadow: 120px 0 #fff, 240px 0 #fff;
+	-ms-box-shadow: 120px 0 #fff, 240px 0 #fff;
+	box-shadow: 120px 0 #fff, 240px 0 #fff;
+}
+
+.pace .pace-progress:after {
+	content: attr(data-progress-text);
+	display: inline-block;
+	position: fixed;
+	width: 45px;
+	text-align: right;
+	right: 0;
+	padding-right: 16px;
+	top: 4px;
+}
+
+.pace .pace-progress[data-progress-text="0%"]:after { right: -200px }
+.pace .pace-progress[data-progress-text="1%"]:after { right: -198.14px }
+.pace .pace-progress[data-progress-text="2%"]:after { right: -196.28px }
+.pace .pace-progress[data-progress-text="3%"]:after { right: -194.42px }
+.pace .pace-progress[data-progress-text="4%"]:after { right: -192.56px }
+.pace .pace-progress[data-progress-text="5%"]:after { right: -190.7px }
+.pace .pace-progress[data-progress-text="6%"]:after { right: -188.84px }
+.pace .pace-progress[data-progress-text="7%"]:after { right: -186.98px }
+.pace .pace-progress[data-progress-text="8%"]:after { right: -185.12px }
+.pace .pace-progress[data-progress-text="9%"]:after { right: -183.26px }
+.pace .pace-progress[data-progress-text="10%"]:after { right: -181.4px }
+.pace .pace-progress[data-progress-text="11%"]:after { right: -179.54px }
+.pace .pace-progress[data-progress-text="12%"]:after { right: -177.68px }
+.pace .pace-progress[data-progress-text="13%"]:after { right: -175.82px }
+.pace .pace-progress[data-progress-text="14%"]:after { right: -173.96px }
+.pace .pace-progress[data-progress-text="15%"]:after { right: -172.1px }
+.pace .pace-progress[data-progress-text="16%"]:after { right: -170.24px }
+.pace .pace-progress[data-progress-text="17%"]:after { right: -168.38px }
+.pace .pace-progress[data-progress-text="18%"]:after { right: -166.52px }
+.pace .pace-progress[data-progress-text="19%"]:after { right: -164.66px }
+.pace .pace-progress[data-progress-text="20%"]:after { right: -162.8px }
+.pace .pace-progress[data-progress-text="21%"]:after { right: -160.94px }
+.pace .pace-progress[data-progress-text="22%"]:after { right: -159.08px }
+.pace .pace-progress[data-progress-text="23%"]:after { right: -157.22px }
+.pace .pace-progress[data-progress-text="24%"]:after { right: -155.36px }
+.pace .pace-progress[data-progress-text="25%"]:after { right: -153.5px }
+.pace .pace-progress[data-progress-text="26%"]:after { right: -151.64px }
+.pace .pace-progress[data-progress-text="27%"]:after { right: -149.78px }
+.pace .pace-progress[data-progress-text="28%"]:after { right: -147.92px }
+.pace .pace-progress[data-progress-text="29%"]:after { right: -146.06px }
+.pace .pace-progress[data-progress-text="30%"]:after { right: -144.2px }
+.pace .pace-progress[data-progress-text="31%"]:after { right: -142.34px }
+.pace .pace-progress[data-progress-text="32%"]:after { right: -140.48px }
+.pace .pace-progress[data-progress-text="33%"]:after { right: -138.62px }
+.pace .pace-progress[data-progress-text="34%"]:after { right: -136.76px }
+.pace .pace-progress[data-progress-text="35%"]:after { right: -134.9px }
+.pace .pace-progress[data-progress-text="36%"]:after { right: -133.04px }
+.pace .pace-progress[data-progress-text="37%"]:after { right: -131.18px }
+.pace .pace-progress[data-progress-text="38%"]:after { right: -129.32px }
+.pace .pace-progress[data-progress-text="39%"]:after { right: -127.46px }
+.pace .pace-progress[data-progress-text="40%"]:after { right: -125.6px }
+.pace .pace-progress[data-progress-text="41%"]:after { right: -123.74px }
+.pace .pace-progress[data-progress-text="42%"]:after { right: -121.88px }
+.pace .pace-progress[data-progress-text="43%"]:after { right: -120.02px }
+.pace .pace-progress[data-progress-text="44%"]:after { right: -118.16px }
+.pace .pace-progress[data-progress-text="45%"]:after { right: -116.3px }
+.pace .pace-progress[data-progress-text="46%"]:after { right: -114.44px }
+.pace .pace-progress[data-progress-text="47%"]:after { right: -112.58px }
+.pace .pace-progress[data-progress-text="48%"]:after { right: -110.72px }
+.pace .pace-progress[data-progress-text="49%"]:after { right: -108.86px }
+.pace .pace-progress[data-progress-text="50%"]:after { right: -107px }
+.pace .pace-progress[data-progress-text="51%"]:after { right: -105.14px }
+.pace .pace-progress[data-progress-text="52%"]:after { right: -103.28px }
+.pace .pace-progress[data-progress-text="53%"]:after { right: -101.42px }
+.pace .pace-progress[data-progress-text="54%"]:after { right: -99.56px }
+.pace .pace-progress[data-progress-text="55%"]:after { right: -97.7px }
+.pace .pace-progress[data-progress-text="56%"]:after { right: -95.84px }
+.pace .pace-progress[data-progress-text="57%"]:after { right: -93.98px }
+.pace .pace-progress[data-progress-text="58%"]:after { right: -92.12px }
+.pace .pace-progress[data-progress-text="59%"]:after { right: -90.26px }
+.pace .pace-progress[data-progress-text="60%"]:after { right: -88.4px }
+.pace .pace-progress[data-progress-text="61%"]:after { right: -86.53999999999999px }
+.pace .pace-progress[data-progress-text="62%"]:after { right: -84.68px }
+.pace .pace-progress[data-progress-text="63%"]:after { right: -82.82px }
+.pace .pace-progress[data-progress-text="64%"]:after { right: -80.96000000000001px }
+.pace .pace-progress[data-progress-text="65%"]:after { right: -79.1px }
+.pace .pace-progress[data-progress-text="66%"]:after { right: -77.24px }
+.pace .pace-progress[data-progress-text="67%"]:after { right: -75.38px }
+.pace .pace-progress[data-progress-text="68%"]:after { right: -73.52px }
+.pace .pace-progress[data-progress-text="69%"]:after { right: -71.66px }
+.pace .pace-progress[data-progress-text="70%"]:after { right: -69.8px }
+.pace .pace-progress[data-progress-text="71%"]:after { right: -67.94px }
+.pace .pace-progress[data-progress-text="72%"]:after { right: -66.08px }
+.pace .pace-progress[data-progress-text="73%"]:after { right: -64.22px }
+.pace .pace-progress[data-progress-text="74%"]:after { right: -62.36px }
+.pace .pace-progress[data-progress-text="75%"]:after { right: -60.5px }
+.pace .pace-progress[data-progress-text="76%"]:after { right: -58.64px }
+.pace .pace-progress[data-progress-text="77%"]:after { right: -56.78px }
+.pace .pace-progress[data-progress-text="78%"]:after { right: -54.92px }
+.pace .pace-progress[data-progress-text="79%"]:after { right: -53.06px }
+.pace .pace-progress[data-progress-text="80%"]:after { right: -51.2px }
+.pace .pace-progress[data-progress-text="81%"]:after { right: -49.34px }
+.pace .pace-progress[data-progress-text="82%"]:after { right: -47.480000000000004px }
+.pace .pace-progress[data-progress-text="83%"]:after { right: -45.62px }
+.pace .pace-progress[data-progress-text="84%"]:after { right: -43.76px }
+.pace .pace-progress[data-progress-text="85%"]:after { right: -41.9px }
+.pace .pace-progress[data-progress-text="86%"]:after { right: -40.04px }
+.pace .pace-progress[data-progress-text="87%"]:after { right: -38.18px }
+.pace .pace-progress[data-progress-text="88%"]:after { right: -36.32px }
+.pace .pace-progress[data-progress-text="89%"]:after { right: -34.46px }
+.pace .pace-progress[data-progress-text="90%"]:after { right: -32.6px }
+.pace .pace-progress[data-progress-text="91%"]:after { right: -30.740000000000002px }
+.pace .pace-progress[data-progress-text="92%"]:after { right: -28.880000000000003px }
+.pace .pace-progress[data-progress-text="93%"]:after { right: -27.02px }
+.pace .pace-progress[data-progress-text="94%"]:after { right: -25.16px }
+.pace .pace-progress[data-progress-text="95%"]:after { right: -23.3px }
+.pace .pace-progress[data-progress-text="96%"]:after { right: -21.439999999999998px }
+.pace .pace-progress[data-progress-text="97%"]:after { right: -19.58px }
+.pace .pace-progress[data-progress-text="98%"]:after { right: -17.72px }
+.pace .pace-progress[data-progress-text="99%"]:after { right: -15.86px }
+.pace .pace-progress[data-progress-text="100%"]:after { right: -14px }
+
+
+.pace .pace-activity {
+	position: absolute;
+	width: 100%;
+	height: 28px;
+	z-index: 2001;
+	box-shadow: inset 0 0 0 2px #29d, inset 0 0 0 7px #FFF;
+	border-radius: 10px;
+}
+
+.pace.pace-inactive {
+	display: none;
+}*/
 
 .pace .pace-progress {background: red!important;height:10px;}
 
     </style>
+    <!-- InstanceBeginEditable name="head" -->
+    <!--
+<script src="js/google.js" type="text/javascript"></script>
+<script src="js/pace.min.js" type="text/javascript"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.poptrox.min.js" type="text/javascript"></script>
+<script src="js/skel.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.unveil.min.js"></script>
+<script type="text/javascript" src="js/pages.frontend.js"></script>-->
 
 <script src="js/google.js" type="text/javascript"></script>
 <script src="js/pace.min.js" type="text/javascript"></script>
@@ -247,6 +456,70 @@ background-color: black!important;
 
 </script>
 </head>
+<!--
+<body class="pace-dark windows desktop pace-done"> <div class="pace pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;"> <div class="pace-progress-inner"></div></div><div class="pace-activity"></div></div>
+
+
+<div class="pace pace-inactive">
+        <div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+            <div class="pace-progress-inner"></div>
+        </div>
+        <div class="pace-activity"></div>
+    </div>
+<div class="container">
+  <div class="row">
+        <nav class="header bg-header navbar navbar-expand-lg navbar-dark ms-auto transparent-dark bg-dark"  style="font-family:'montserrat'!important;font-size:14px!important;font-weight:bold!important;text-transform: uppercase!important; position:fixed;  top:0; width:100%; padding-top:15px!important;"  data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark">
+              <div class="container-fluid bg-dark">
+              <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                  <a href="index.html"><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="logo" alt=""><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="alt" alt=""></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="about_winduct.html">About WinDuct®</a></li>
+                      <li><a class="dropdown-item" href="why_choose_winduct.html">Why Choose WinDuct®?</a></li>
+                      <li><a class="dropdown-item" href="winduct_quality.html">Winduct® Quality Assurance</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      WinDuct®
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown2">
+                      <li><a class="dropdown-item" href="winduct_overview.html">WinDuct® Overview</a></li>
+                      <li><a class="dropdown-item" href="intunescent_coating.html">Intumescent Coating</a></li>
+                      <li><a class="dropdown-item" href="specifications.html">Specifications</a></li>
+                      <li><a class="dropdown-item" href="construction_details.html">Construction </a></li>
+                      <li><a class="dropdown-item" href="before_after_test.html">Before & After Test</a></li>
+                      <li><a class="dropdown-item" href="test_report.html">Test Reports</a></li>
+                      <li><a class="dropdown-item" href="awards_recognitions.html">Awards & Recognitions</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="all_projects5.html">Project References</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+        </nav>
+  </div>
+      <div>
+        <img class="responsive-banner" style="padding-left:-900px;" src="images/top_banner_15.png" />  <h1 class="marker-position-banner">Project References</h1>
+      </div>
+</div>-->
 
 
 
@@ -262,66 +535,62 @@ background-color: black!important;
   </div>
   <div class="pace-activity"></div>
 </div>
- 
-<nav class="header bg-header transparent-dark" data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark" id="site-header">
-  <div class="container relative">
-      <div class="pull-left">
-          <div class="header-inner"><a href="index.html"><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="logo" alt=""><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="alt" alt=""></a></div>
-      </div>
+  <nav class="header bg-header transparent-dark" data-pages="header" data-pages-header="autoresize" data-pages-resize-class="dark">
+      <div class="container relative">
+          <div class="pull-left">
+              <div class="header-inner"><a href="index.html"><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="logo" alt=""><img src="images/logo_winduct.png" width="152" data-src-retina="images/logo_winduct_2x.png" class="alt" alt=""></a></div>
+          </div>
 
-      <div class="pull-right">
-          <div class="header-inner">
-              <div class="visible-sm-inline visible-xs-inline menu-toggler pull-right p-l-10" data-pages="header-toggle" data-pages-element="#header">
-                  <div class="one"></div>
-                  <div class="two"></div>
-                  <div class="three"></div>
+          <div class="pull-right">
+              <div class="header-inner">
+                  <div class="visible-sm-inline visible-xs-inline menu-toggler pull-right p-l-10" data-pages="header-toggle" data-pages-element="#header">
+                      <div class="one"></div>
+                      <div class="two"></div>
+                      <div class="three"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="menu-content mobile-dark pull-right clearfix" data-pages-direction="slideRight" id="header">
+              <div class="pull-right"><a href="#" class="padding-10 visible-xs-inline visible-sm-inline pull-right m-t-10 m-b-10 m-r-10" data-pages="header-toggle" data-pages-element="#header"><i class=" pg-close_line"></i></a></div>
+              <div class="header-inner">
+                  <ul class="menu">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="classic"><a href="javascript:;">About Us <i class="pg-arrow_minimize m-l-5"></i></a>
+                          <nav class="classic "><span class="arrow"></span>
+                              <ul>
+                                  <li><a href="about_winduct.html">About WinDuct®</a></li>
+                                  <li><a href="why_choose_winduct.html">Why Choose WinDuct®</a></li>
+                                  <li><a href="winduct_quality.html">Winduct® Quality Assurance</a></li>
+                              </ul>
+                          </nav>
+                      </li>
+                      <li class="classic"><a href="javascript:;">WinDuct® <i class="pg-arrow_minimize m-l-5"></i></a>
+                          <nav class="classic "><span class="arrow"></span>
+                              <ul>
+                                  <li><a href="winduct_overview.html">WinDuct® Overview</a></li>
+                                  <li><a href="intumescent_coating.html">Intumescent Coating</a></li>
+                                  <li><a href="specifications.html">Specifications</a></li>
+                                  <li><a href="construction_details.html">Construction Details</a></li>
+                                  <li><a href="before_after_test.html">Before & After Test</a></li>
+                                  <li><a href="test_report.html">Test Reports</a></li>
+                                  <li><a href="awards_recognitions.html">Awards & Recognitions</a></li>
+                              </ul>
+                          </nav>
+                      </li>
+                      <li class="classic"><a href="all_projects5.html">Project References</a>
+                      </li>
+                      <li class=""><a href="contact.html">Contact Us</a></li>
+                  </ul>
               </div>
           </div>
       </div>
-      <div class="menu-content mobile-dark pull-right clearfix" data-pages-direction="slideRight" id="header">
-          <div class="pull-right"><a href="#" class="padding-10 visible-xs-inline visible-sm-inline pull-right m-t-10 m-b-10 m-r-10" data-pages="header-toggle" data-pages-element="#header"><i class=" pg-close_line"></i></a></div>
-          <div class="header-inner">
-              <ul class="menu">
-                  <li><a href=" #" >Home</a></li>
-                  <li class="classic"><a href="javascript:;">About Us <i class="pg-arrow_minimize m-l-5"></i></a>
-                      <nav class="classic "><span class="arrow"></span>
-                          <ul>
-                              <li><a href="about_winduct.html">About WinDuct®</a></li>
-                              <li><a href="why_choose_winduct.html">Why Choose WinDuct®</a></li>
-                              <li><a href="winduct_quality.html">Winduct® Quality Assurance</a></li>
-                          </ul>
-                      </nav>
-                  </li>
-                  <li class="classic"><a href="javascript:;">WinDuct® <i class="pg-arrow_minimize m-l-5"></i></a>
-                      <nav class="classic "><span class="arrow"></span>
-                          <ul>
-                              <li><a href="winduct_overview.html">WinDuct® Overview</a></li>
-                              <li><a href="intumescent_coating.html">Intumescent Coating</a></li>
-                              <li><a href="specifications.html">Specifications</a></li>
-                              <li><a href="construction_details.html">Construction Details</a></li>
-                              <li><a href="before_after_test.html">Before & After Test</a></li>
-                              <li><a href="test_report.html">Test Reports</a></li>
-                              <li><a href="awards_recognitions.html">Awards & Recognitions</a></li>
-                          </ul>
-                      </nav>
-                  </li>
-                  <li class="classic"><a href="all_projects5.html" class="active">Project References</a>
-                  </li>
-                  <li class=""><a href="contact.html">Contact Us</a></li>
-              </ul>
-          </div>
-      </div>
-  </div>
-</nav>
-
-
-<!-- InstanceBeginEditable name="body" --><div class="product_background"><section class="winduct_content"><div class="slides desktop_version"><img src="images/top_banner_15.png" /></div><div class="container mobile_top_02"><div class="col-middle text-left"><h1 class="inner p-b-50 m-b-20 text-white">Project References</h1></div></div></section>
+  </nav><!-- InstanceBeginEditable name="body" --><div class="product_background"><section class="winduct_content"><div class="slides desktop_version"><img src="images/top_banner_15.png" /></div><div class="container mobile_top_02"><div class="col-middle text-left"><h1 class="inner p-b-50 m-b-20 text-white">Local Project References</h1></div></div></section>
   <div id="wrapper">
     <div class="container page">
 <div class="projects-menubar" style="margin-top:15px;text-align:center!important;background-color:white!important;">
   <div class="container-fluid">
-    <div class = "thebuttons fixed" style="text-align:center!important;">
-<!-- <button type="button" class="btn btn-outline-primary btn-lg btnlink" onmouseover="openPage('highlights', this)" onclick="openProject(this,'VIEW ALL')">Project Highlights</button> -->
+    <div class = "thebuttons" style="text-align:center!important;">
+<button type="button" class="btn btn-outline-primary btn-lg btnlink" onmouseover="openPage('highlights', this)" onclick="openProject(this,'VIEW ALL')">Project Highlights</button>
 <button  id="categories-parent" type="button" class="btn btn-outline-primary btn-lg btnlink cat"  onmouseover="openPage('categories', this)" >Project Categories</button>
 
 
@@ -349,7 +618,7 @@ background-color: black!important;
 </ul>
 </div>
 
-<!-- <div id="ul2" style="display:block;">
+<div id="ul2" style="display:block;">
    <ul class="list-group list-group-flush">
     <table>
       <tr>
@@ -382,7 +651,7 @@ background-color: black!important;
         <td><a class="list-group-item list-group-item-action float-start" onclick="openProject(this,'OTHERS')">OTHERS</a></td>
       </tr>
     </table>
-</div> -->
+</div>
 </center>
 
 </div><!--categories-->
@@ -424,7 +693,7 @@ background-color: black!important;
 
       //loading bar starts
 	  //  $(".spinner-border").show();
-    $(".projects-menubar").show();
+    $(".projects-menubar").hide();
 
       $("footer").load("footer.html",()=>{
           $(".currentYear").text(new Date().getFullYear());
@@ -470,20 +739,20 @@ $("#categories").mouseleave(function() {
     var num = 100; //number of pixels before modifying styles
 
 
-    // $(window).bind('scroll', function () {
-      // if ($(window).scrollTop() > num) {
+    $(window).bind('scroll', function () {
+      if ($(window).scrollTop() > num) {
           $('.projects-menubar .thebuttons').addClass('fixed');
           $('#ul1').show();
           $('#ul2').hide();
-      // }
+      }
 
-      // else {
-      //     $('.projects-menubar .thebuttons').removeClass('fixed');
-      //     $('#ul1').hide();
-      //     $('#ul2').show();
-      // }
+      else {
+          $('.projects-menubar .thebuttons').removeClass('fixed');
+          $('#ul1').hide();
+          $('#ul2').show();
+      }
 
-    // });
+    });
 
 
 });
