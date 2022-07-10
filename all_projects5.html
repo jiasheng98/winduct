@@ -515,7 +515,7 @@ background-color: black!important;
 <div class="projects-menubar" style="margin-top:15px;text-align:center!important;background-color:white!important;">
   <div class="container-fluid">
     <div class = "thebuttons" style="text-align:center!important;">
-<button type="button" class="btn btn-outline-primary btn-lg btnlink" onmouseover="openPage('highlights', this)" onclick="openProject(this,'VIEW ALL')">Project Highlights</button>
+<!-- <button type="button" class="btn btn-outline-primary btn-lg btnlink" onmouseover="openPage('highlights', this)" onclick="openProject(this,'VIEW ALL')">Project Highlights</button> -->
 <button  id="categories-parent" type="button" class="btn btn-outline-primary btn-lg btnlink cat"  onmouseover="openPage('categories', this)" >Project Categories</button>
 
 
@@ -665,17 +665,17 @@ $("#categories").mouseleave(function() {
 
 
     $(window).bind('scroll', function () {
-      if ($(window).scrollTop() > num) {
-          $('.projects-menubar .thebuttons').addClass('fixed');
-          $('#ul1').show();
-          $('#ul2').hide();
-      }
+      // if ($(window).scrollTop() > num) {
+      //     $('.projects-menubar .thebuttons').addClass('fixed');
+      //     $('#ul1').show();
+      //     $('#ul2').hide();
+      // }
 
-      else {
+      // else {
           $('.projects-menubar .thebuttons').removeClass('fixed');
           $('#ul1').hide();
           $('#ul2').show();
-      }
+      // }
 
     });
 
