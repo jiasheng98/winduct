@@ -396,7 +396,7 @@ background-color: black!important;
 <center>
 <div id="ul1" style="display:none;">
   <ul class="list-group list-group-flush" style="height:600px!important;font-size:11px!important;">
-    <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'VIEW ALL')" >Project Highlights</a>
+    <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'FEATURED')" >PROJECT HIGHLIGHTS</a>
   <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'MIXED DEVELOPMENT')" >MIXED DEVELOPMENT</a>
  <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'HIGH RISE BUILDING')">HIGH RISE BUILDING</a>
   <a href="#" class="list-group-item list-group-item-action float-start" onclick="openProject(this,'SHOPPING MALLS')">SHOPPING MALLS</a>
@@ -595,6 +595,7 @@ $("#categories").mouseleave(function() {
     function openProject(elmnt,text){
       $(".projTitle").text(text);
       if (text === 'VIEW ALL') $("#content").load("viewall1.html");
+      if (text === 'FEATURED') $("#content").load("featured_project.html");
       if (text === 'MIXED DEVELOPMENT') $("#content").load("mixeddevelopment.html");
       if (text === 'HIGH RISE BUILDING') $("#content").load("highrise.html");
       if (text === 'SHOPPING MALLS') $("#content").load("mall.html");
