@@ -10518,4 +10518,7 @@ p {
     .dunno-what-this {
         display: none !important;
     }
+    .footer-cont {
+        margin: 0;
+    }
 }
