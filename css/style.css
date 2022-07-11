@@ -10512,4 +10512,7 @@ p {
     .footer-col-lf>img {
        float:  left !important;
     }
+    .dunno-what-this {
+        display: none !important;
+    }
 }
