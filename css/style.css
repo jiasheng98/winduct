@@ -10537,6 +10537,12 @@ p {
     .card-text, .card-title {
         text-align: center;
     }
+    .erm-what {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .card-text {
