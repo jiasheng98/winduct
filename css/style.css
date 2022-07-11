@@ -10534,6 +10534,9 @@ p {
     .footer-cont {
         margin: 0 !important;
     }
+    .card-text, .card-title {
+        text-align: center;
+    }
 }
 
 .card-text {
