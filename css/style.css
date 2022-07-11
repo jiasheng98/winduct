@@ -10509,4 +10509,7 @@ p {
     .footer-col-lf {
         width: 100%;
     }
+    .footer-col-lf>img {
+       float:  left !important;
+    }
 }
