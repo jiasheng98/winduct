@@ -92,6 +92,10 @@ body, html {
   height: 100%;
 }
 
+.display-none {
+  display: none;
+}
+
 div .projects-menubar {
 padding-top:-5x!important;
 padding-left: 0px!important;
@@ -384,7 +388,7 @@ background-color: black!important;
     <div class="container page">
 <div class="projects-menubar" style="margin-top:15px;text-align:center!important;background-color:white!important;">
   <div class="container-fluid">
-    <div class = "thebuttons fixed" style="text-align:center!important;">
+    <div class = "thebuttons" style="text-align:center!important;">
 <!-- <button type="button" class="btn btn-outline-primary btn-lg btnlink" onmouseover="openPage('highlights', this)" onclick="openProject(this,'VIEW ALL')">Project Highlights</button> -->
 <button  id="categories-parent" type="button" class="btn btn-outline-primary btn-lg btnlink cat"  onmouseover="openPage('categories', this)" >Project Categories</button>
 
@@ -541,7 +545,7 @@ $("#categories").mouseleave(function() {
       }
 
       else {
-          $('.projects-menubar .thebuttons').addClass('fixed');
+          $('.projects-menubar .thebuttons').addClass('display-none');
           $('#ul1').hide();
           $('#ul2').show();
       }
