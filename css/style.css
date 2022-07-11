@@ -10505,7 +10505,17 @@ p {
     font-size: 1rem !important;
 }
 
+.mobile-ver {
+    display: none;
+}
+
 @media (max-width: 820px) {
+    .desktop_ver {
+        display: none;
+    }
+    .mobile-ver{
+        display: block;
+    }
     .footer-col-lf {
         width: 100%;
         padding: 0 !important;
