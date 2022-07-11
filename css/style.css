@@ -10504,3 +10504,9 @@ h1 {
 p {
     font-size: 1rem !important;
 }
+
+@media (max-width: 768px) {
+    .footer-col-lf {
+        width: 100%;
+    }
+}
