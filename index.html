@@ -846,7 +846,7 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   if (slideIndex > slides.length) {slideIndex = 1}
-  if (slideIndex < 1) {slideIndex = 26}
+  if (slideIndex < 1) {slideIndex = 25}
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
@@ -859,11 +859,6 @@ function showSlides() {
                     }
 
                     function minusSlides(n) {
-                      if (currentSlide(1)) {
-                        showSlides(26);
-                      } else {
-                        
-                      }
                       showSlides(slideIndex -= n);
                     }
                     
