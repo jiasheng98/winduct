@@ -10508,10 +10508,12 @@ p {
 @media (max-width: 768px) {
     .footer-col-lf {
         width: 100%;
+        padding: 0 !important;
     }
     .footer-col-lf>img {
        float:  left !important;
        width: 25% !important;
+       object-fit: contain;
     }
     .dunno-what-this {
         display: none !important;
