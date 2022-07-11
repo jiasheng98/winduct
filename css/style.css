@@ -10511,6 +10511,7 @@ p {
     }
     .footer-col-lf>img {
        float:  left !important;
+       width: 25% !important;
     }
     .dunno-what-this {
         display: none !important;
