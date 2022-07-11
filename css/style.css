@@ -10492,3 +10492,7 @@ h1 {
 .front_thumbnails {
     justify-content: center;
 }
+
+.grid-item {
+    border: 0 !important;
+}
