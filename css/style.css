@@ -10104,8 +10104,8 @@ sup.dollar {
 
 @media (max-width: 767px) {
     .container {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .menu-content {
         width: 270px;
@@ -10543,6 +10543,9 @@ p {
         justify-content: center;
         align-items: center;
     }
+    .twohour {
+        text-align: center;
+    }
 }
 
 .card-text {
@@ -10555,4 +10558,8 @@ h3 {
 
 nav>.container {
     padding: 0 1rem;
+}
+
+.twohour {
+    text-align: right;
 }
