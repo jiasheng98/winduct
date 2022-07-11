@@ -10510,8 +10510,8 @@ p {
         width: 100%;
         padding: 0 !important;
         justify-content: flex-start !important;
-        margin: 1rem 0;
-        padding: 0 0 0 1rem;
+        margin: 0;
+        padding: 0 0 0 1rem !important;
     }
     .footer-col-lf>img {
        float:  left !important;
