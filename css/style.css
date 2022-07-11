@@ -10535,3 +10535,7 @@ p {
         margin: 0 !important;
     }
 }
+
+.card-text {
+    line-height: 30px;
+}

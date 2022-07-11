@@ -90,6 +90,20 @@
          -webkit-user-select: none;
         }
 
+        @media (max-width: 820px) {
+          .prev,
+        .next {
+         font-size: 2rem;
+         top: 29%;
+        }
+        .prev {
+          padding: 0 0 0 1rem !important;
+        }
+        .next {
+          padding: 0 1rem 0 0 !important;
+        }
+        }
+
         .prev {
           padding: 0 0 0 2rem;
         }
@@ -845,6 +859,11 @@ function showSlides() {
                     }
 
                     function minusSlides(n) {
+                      if (currentSlide(1)) {
+                        showSlides(26);
+                      } else {
+                        
+                      }
                       showSlides(slideIndex -= n);
                     }
                     
