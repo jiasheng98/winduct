@@ -10572,3 +10572,7 @@ nav>.container {
     position: relative;
     font-size: 1.5em;
 }
+
+.grid-item img {
+    object-position: top;
+}
