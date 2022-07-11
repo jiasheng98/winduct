@@ -10563,3 +10563,12 @@ nav>.container {
 .twohour {
     text-align: right;
 }
+
+.mobile_top_02 {
+    position: relative;
+}
+
+.mobile_top_02>div>h1 {
+    position: relative;
+    font-size: 1.5em;
+}
