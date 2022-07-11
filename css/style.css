@@ -10510,7 +10510,7 @@ p {
 }
 
 @media (max-width: 820px) {
-    .desktop_ver {
+    .desktop-ver {
         display: none;
     }
     .mobile-ver{
