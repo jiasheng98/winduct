@@ -10460,10 +10460,13 @@ h1 {
 	}
 }
 
+.mySlides {
+    background-color: transparent !important;
+}
+
 .slide-img {
-    object-fit: cover;
-    height: 600px;
-    object-position: top;
+    object-fit: contain;
+    height: 100%;
 }
 
 .card-body {
@@ -10483,4 +10486,8 @@ h1 {
 
 .footer-col-lf>img {
     margin: 0 .5rem;
+}
+
+.front_thumbnails {
+    justify-content: center;
 }
