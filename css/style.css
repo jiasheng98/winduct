@@ -10548,3 +10548,11 @@ p {
 .card-text {
     line-height: 30px;
 }
+
+h3 {
+    margin: 0;
+}
+
+nav>.container {
+    padding: 0 1rem;
+}
