@@ -1405,6 +1405,7 @@ width: 75%;
     z-index: 10000;
     position: relative;
     height: 100%;
+    padding: 0 2rem;
     width: 100%;
     max-width: 1500px;
     margin: auto;
