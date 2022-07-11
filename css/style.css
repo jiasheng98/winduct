@@ -10512,13 +10512,13 @@ p {
     }
     .footer-col-lf>img {
        float:  left !important;
-       width: 25% !important;
+       width: 12% !important;
        object-fit: contain;
     }
     .dunno-what-this {
         display: none !important;
     }
     .footer-cont {
-        margin: 0;
+        margin: 0 !important;
     }
 }
