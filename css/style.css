@@ -10506,7 +10506,8 @@ h1 {
 }
 
 p {
-    font-size: 1rem !important;
+    font-size: .8rem !important;
+    font-weight: unset !important;
 }
 
 .mobile-ver {
