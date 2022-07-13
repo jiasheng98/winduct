@@ -10495,6 +10495,9 @@ h1 {
 
 .front_thumbnails {
     justify-content: center;
+}
+
+.front_thumbnails p {
     min-height: fit-content;
 }
 
