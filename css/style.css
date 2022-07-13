@@ -10591,8 +10591,13 @@ p, span, a {
     line-height: 25px !important;
 }
 
-li>a, ul>a {
+li>a {
     font-size: .8rem !important;
+    line-height: 25px !important;
+}
+
+ul>a {
+    font-size: .6rem !important;
     line-height: 25px !important;
 }
 
