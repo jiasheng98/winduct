@@ -10593,3 +10593,8 @@ p, span, a {
         line-height: 30px !important;
     }
 }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
