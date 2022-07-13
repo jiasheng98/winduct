@@ -10622,3 +10622,10 @@ p, span {
 .grid-item img{
     height: 88% !important;  
   }
+
+  @media (min-width: 768px) {
+    .grid-item img{
+        height: 93% !important;  
+      }
+    
+  }
