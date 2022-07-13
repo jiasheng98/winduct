@@ -10498,7 +10498,7 @@ h1 {
 }
 
 .front_thumbnails p {
-    min-height: fit-content;
+    min-height: fit-content !important;
 }
 
 .grid-item {
