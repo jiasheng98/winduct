@@ -10587,6 +10587,11 @@ p, span, a {
     line-height: 25px !important;
 }
 
+li>a {
+    font-size: .8rem !important;
+    line-height: 25px !important;
+}
+
 @media (min-width: 768px) {
     p, span, a {
         font-size: 1rem !important;
