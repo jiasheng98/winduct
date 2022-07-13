@@ -10610,6 +10610,10 @@ p, span {
     .onePerRow, .twoPerRow, .threePerRow{
         grid-column: span 6 !important;
       }
+      .onePerColumn, .twoPerColumn, .threePerColumn{
+        grid-column: span 3 !important;
+        grid-row: span 4 !important;
+      }
       .grid-item {
         font-size : .8rem !important;
       }
