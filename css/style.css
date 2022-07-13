@@ -10607,8 +10607,7 @@ p, span {
 
 
 @media (max-width: 575px) {
-    .onePerColumn, .twoPerColumn, .threePerColumn{
-        grid-column: span 3 !important;
-        grid-row: span 6 !important;
+    .onePerRow, .twoPerRow, .threePerRow{
+        grid-column: span 6 !important;
       }
 }
