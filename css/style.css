@@ -10586,23 +10586,15 @@ nav>.container {
     object-position: top;
 }
 
-p, span, a {
+p, span {
     font-size: .8rem !important;
     line-height: 25px !important;
 }
 
-li>a {
-    font-size: .8rem !important;
-    line-height: 25px !important;
-}
 
-ul>a {
-    font-size: .6rem !important;
-    line-height: 25px !important;
-}
 
 @media (min-width: 768px) {
-    p, span, a {
+    p, span {
         font-size: 1rem !important;
         line-height: 30px !important;
     }
