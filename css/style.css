@@ -10581,3 +10581,13 @@ nav>.container {
 .grid-item img {
     object-position: top;
 }
+
+p, span, a {
+    font-size: .8rem !important;
+}
+
+@media (min-width: 768px) {
+    p, span, a {
+        font-size: 1rem !important;
+    }
+}
