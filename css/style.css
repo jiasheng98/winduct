@@ -10604,3 +10604,11 @@ p, span {
     margin-left: 0;
     margin-right: 0;
 }
+
+
+@media (max-width: 575px) {
+    .onePerColumn, .twoPerColumn, .threePerColumn{
+        grid-column: span 3 !important;
+        grid-row: span 6 !important;
+      }
+}
