@@ -10611,6 +10611,6 @@ p, span {
         grid-column: span 6 !important;
       }
       .grid-item {
-        font-size : .8rem;
+        font-size : .8rem !important;
       }
 }
