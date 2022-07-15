@@ -2337,7 +2337,7 @@ hr.dotted {
 }
 .red {
 	color:#000;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 .blue {
 	color:#000;
