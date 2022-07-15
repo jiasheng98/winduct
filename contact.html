@@ -326,43 +326,90 @@
             </div>
             <div class="col-md-6">
                 <h5>Get In Touch</h5>
-                <form class="jotform-form" action="contact-form-handler.php" method="post" id="contact-form">
+                <!-- <form id="my-form" action="https://formspree.io/f/mvoljelg" method="POST">
+                    <label>Company Name:</label>
+                    <input type="text" name="companyname" />
+                    <label>Name:</label>
+                    <input type="text" name="name" />
+                    <label>Email:</label>
+                    <input type="email" name="email" />
+                    <label>Contact:</label>
+                    <input type="text" name="contact" />
+                    <label>Message:</label>
+                    <input type="text" name="message" />
+                    <button id="my-form-button">Submit</button>
+                    <p id="my-form-status"></p>
+                  </form>
+        
+                  <script>
+                      var form = document.getElementById("my-form");
+                      
+                      async function handleSubmit(event) {
+                        event.preventDefault();
+                        var status = document.getElementById("my-form-status");
+                        var data = new FormData(event.target);
+                        fetch(event.target.action, {
+                          method: form.method,
+                          body: data,
+                          headers: {
+                              'Accept': 'application/json'
+                          }
+                        }).then(response => {
+                          if (response.ok) {
+                            status.innerHTML = "Thanks for your submission!";
+                            form.reset()
+                          } else {
+                            response.json().then(data => {
+                              if (Object.hasOwn(data, 'errors')) {
+                                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                              } else {
+                                status.innerHTML = "Oops! There was a problem submitting your form"
+                              }
+                            })
+                          }
+                        }).catch(error => {
+                          status.innerHTML = "Oops! There was a problem submitting your form"
+                        });
+                      }
+                      form.addEventListener("submit", handleSubmit)
+                  </script> -->
+                <form class="jotform-form" action="https://submit.jotform.me/submit/72148364955465/" method="post" name="form_72148364955465" id="72148364955465" accept-charset="utf-8">
+                    <input type="hidden" name="formID" value="72148364955465" />
                     <div class=form-all>
-                        <label class="form-label form-label-left form-label-auto" id="label_3" for="company_name"> Company Name* </label>
+                        <label class="form-label form-label-left form-label-auto" id="label_3" for="input_3"> Company Name* </label>
                         <div id="cid_3" class="form-input jf-required">
-                            <input type="text" id="company_name" name="company_name" data-type="input-textbox" class="form-control validate[required, AlphaNumeric]" size="40" value="" data-component="textbox" required="" placeholder="Company Name" /> </div>
-                        <label class="form-label form-label-left" id="label_4" for="name"> Your Name*</label>
+                            <input type="text" id="input_3" name="q3_companyName" data-type="input-textbox" class="form-control validate[required, AlphaNumeric]" size="40" value="" data-component="textbox" required="" placeholder="Company Name" /> </div>
+                        <label class="form-label form-label-left" id="label_4" for="input_4"> Your Name*</label>
                         <div id="cid_4" class="form-input jf-required">
-                            <input type="text" id="name" name="name" data-type="input-textbox" class="form-control validate[required, Numeric]" size="40" value="" data-component="textbox" required="" placeholder="Your Name" /> </div>
-                        <label class="form-label form-label-left form-label-auto" id="label_5" for="email">Your Email* </label>
+                            <input type="text" id="input_4" name="q4_yourName" data-type="input-textbox" class="form-control validate[required, Numeric]" size="40" value="" data-component="textbox" required="" placeholder="Your Name" /> </div>
+                        <label class="form-label form-label-left form-label-auto" id="label_5" for="input_5">Your Email* </label>
                         <div id="cid_5" class="form-input jf-required">
-                            <input type="email" id="email" name="email" data-type="input-textbox" class="form-control validate[required, Email]" size="40" value="" placeholder=" Your Email" data-component="textbox" required="" /> </div>
-                        <label class="form-label form-label-left form-label-auto" id="label_6" for="contact">Your Contact*</label>
+                            <input type="text" id="input_5" name="q5_yourEmail" data-type="input-textbox" class="form-control validate[required, Email]" size="40" value="" placeholder=" Your Email" data-component="textbox" required="" /> </div>
+                        <label class="form-label form-label-left form-label-auto" id="label_6" for="input_6">Your Contact*</label>
                         <div id="cid_6" class="form-input jf-required">
-                            <input type="text" id="contact" name="contact" data-type="input-textbox" class="form-control validate[required, AlphaNumeric]" size="40" value="" data-component="textbox" required="" placeholder="Your Contact" /> </div>
-                        <label class="form-label form-label-left form-label-auto" id="label_8" for="message"> Your Message* </label>
+                            <input type="text" id="input_6" name="q6_yourContact" data-type="input-textbox" class="form-control validate[required, AlphaNumeric]" size="40" value="" data-component="textbox" required="" placeholder="Your Contact" /> </div>
+                        <label class="form-label form-label-left form-label-auto" id="label_8" for="input_8"> Your Message* </label>
                         <div id="cid_7" class="form-input jf-required">
-                            <textarea id="message" class="form-control validate[required]" name="message" cols="40" rows="6" data-component="textarea" placeholder="Please, keep your message in details and easy to understand" required style="resize: none"></textarea>
+                            <textarea id="input_7" class="form-control validate[required]" name="q7_yourMessage" cols="40" rows="6" data-component="textarea" placeholder="Please, keep your message in details and easy to understand" required style="resize: none"></textarea>
                         </div>
                         <center>
                             <div id=cid_2 class=form-input-wide>
                                 <div class=form-buttons-wrapper>
-                                    <input type="submit" id="submit" class="btn btn-success call-to-action-link btn-lg" value="Send"/>
-                                    <!-- <button id=input_2 type=submit class="btn btn-success call-to-action-link btn-lg" data-component=button> Send </button> -->
+                                    <button id=input_2 type=submit class="btn btn-success call-to-action-link btn-lg" data-component=button> Send </button>
                                 </div>
                             </div>
                         </center>
-                        <!-- <li style="display:none"> Should be Empty:
+                        <li style="display:none"> Should be Empty:
                             <input type="text" name="website" value="" /> </li>
                         <input type="hidden" id="simple_spc" name="simple_spc" value="" />
                         <input type="hidden" id="simple_spc" name="simple_spc" value="72148364955465" />
                         <script type="text/javascript">
                             document.getElementById("si" + "mple" + "_spc").value = "72148364955465-72148364955465";
-                        </script> -->
+                        </script>
                 </form>
-                <!-- <script type="text/javascript">
+                <script type="text/javascript">
                     JotForm.ownerView = true;
-                </script> -->
+                </script>
                 </div>
     </section>
     </div>
