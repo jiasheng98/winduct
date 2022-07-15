@@ -517,6 +517,7 @@ var direction = 0;
 var prevDirection = 0;
 
 var header = document.getElementById('site-header');
+var categories = document.getElementById('categories-parent');
 
 var checkScroll = function() {
 
@@ -548,10 +549,12 @@ if (direction === 2 && curScroll > 2000) {
 //replace 52 with the height of your header in px
 
 header.classList.add('hide');
+categories.classList.add('hide');
 prevDirection = direction;
 }
 else if (direction === 1) {
 header.classList.remove('hide');
+categories.classList.remove('hide');
 prevDirection = direction;
 }
 };
