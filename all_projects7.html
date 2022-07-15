@@ -274,7 +274,7 @@ background-color: black!important;
                               </ul>
                           </nav>
                       </li>
-                      <li class="classic"><a href="all_ projects7.html" class="active">Project References</a>
+                      <li class="classic"><a href="all_projects5.html" class="active">Project References</a>
                       </li>
                       <li class=""><a href="contact.html">Contact Us</a></li>
                   </ul>
@@ -313,7 +313,7 @@ background-color: black!important;
   <a class="list-group-item float-end" onclick="openProject(this,'Stadium & Public Ammenities')">Stadium & Public Ammenities</a>
   <a class="list-group-item float-end" onclick="openProject(this,'University & Education Centre')">University & Education Centre</a>
   <a class="list-group-item float-end" onclick="openProject(this,'Others')">Others</a>
-  <!-- <a class="list-group-item float-end" onclick="openProject(this,'View All')">View All</a> -->
+  <a class="list-group-item float-end" onclick="openProject(this,'View All')">View All</a>
 </ul>
 </div>
 
@@ -463,7 +463,7 @@ $("#categories").mouseleave(function() {
 
     function openProject(elmnt,text){
       $(".projTitle").text(text);
-      // if (text === 'View All') $("#content").load("viewall1.html");
+      if (text === 'View All') $("#content").load("viewall1.html");
       if (text === 'Featured Projects') $("#content").load("featured_project.html");
       if (text === 'Mixed Development') $("#content").load("mixeddevelopment.html");
       if (text === 'High Rise Building') $("#content").load("highrise.html");
