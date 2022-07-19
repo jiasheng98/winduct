@@ -10620,12 +10620,12 @@ p, span {
 }
 
 .grid-item img{
-    height: 88% !important;  
+    height: 100% !important;  
   }
 
   @media (min-width: 768px) {
     .grid-item img{
-        height: 92% !important;  
+        height: 100% !important;  
       }
     
   }

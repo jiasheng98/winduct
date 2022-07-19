@@ -131,6 +131,11 @@ div .main h1{
   color:white!important;
 }
 
+#categories-parent {
+  font-weight: bold;
+  color: black;
+  box-shadow: inset 0 -4px 0 0 black;
+}
 
 
 div #categories .col-sm-3{
@@ -549,6 +554,12 @@ if (direction === 2 && curScroll > 2000) {
 //replace 52 with the height of your header in px
 
 header.classList.add('hide');
+prevDirection = direction;
+}
+if (direction === 2 && curScroll > 4000) { 
+
+//replace 52 with the height of your header in px
+
 categories.classList.add('hide');
 prevDirection = direction;
 }
