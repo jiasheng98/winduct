@@ -10619,8 +10619,21 @@ p, span {
       }
 }
 
+
+.grid-item {
+    position: relative;
+}
+
 .grid-item img{
     height: 100% !important;  
+  }
+
+  .grid-item span {
+position: absolute;
+bottom: 0;
+width: 100%;
+left: 0;
+background: black;
   }
 
   @media (min-width: 768px) {
