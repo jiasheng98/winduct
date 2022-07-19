@@ -5,15 +5,39 @@
 <link href="css/bootstrap5/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link class="main-stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
 <style>
-*{
-      font-style: roboto;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows:minmax(160px, auto);
-  grid-gap: 5px;
 
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+ .column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+ .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .grid-item {
@@ -26,88 +50,67 @@
   font-size : 1rem;
 }
 
-.onePerRow {
-  grid-column: span 6;
+body {
+    margin: 0;            /* Reset default margin */
 }
-/*2 pictures per row*/
-.twoPerRow {
-  grid-column: span 3;
-}
-
-/*3 pictures per row*/
-.threePerRow{
-  grid-column: span 2;
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100%;        /* Viewport-relative units */
+    width: 100%;
 }
 
-.onePerColumn{
-  grid-column: span 3;
-  grid-row: span 6;
-}
-
-.twoPerColumn{
-  grid-column: span 3;
-  grid-row: span 3;
-}
-
-.threePerColumn{
-  grid-column: span 3;
-  grid-row: span 2;
+.grid-item img {
+  height:94%!important;
 }
 
 
-.grid-item img{
-  width:100%;
-  /* height:94%; */
-  object-fit:cover;
-
-}
 
 
 </style>
 <script type="text/javascript" src="js/bootstrap5/bootstrap.bundle.min.js"></script>
+
 <body>
 <div class="grid-container">
-
-
-
   <div class="grid-item twoPerRow"><img src="images/projectsjs/web_1920___1.png"></img><span>TRX Development</span></div>
   <div class="grid-item twoPerRow"><img src="images/projects/high rise/High Rise Highlights/PNB 118.jpg"></img><span>Merdeka PNB 118 Tower</span></div>
   <div class="grid-item onePerRow"><img   src="images/projectsjs/web_1920___3.png"></img><span>KLIA Airport</span></div>
   <div class="grid-item onePerRow"><img style=" " src="images/projectsjs/web_1920___4.png"></img> <span>Air Asia House KLIA</span> </div>
   <div class="grid-item onePerRow"><img    src="images/projectsjs/web_1920___5.png"></img>Stadium Multipurpose Hall, Qatar</div>
-
+  
   <div class="grid-item onePerColumn"><img style=" " src="images/projectsjs/web_1920___6.png"></img>FIFA Al-Wakrah Stadium Qatar</div>
   <div class="grid-item twoPerColumn"><img src="images/projectsjs/web_1920___7.png"></img>Bandar Sunway City</div>
   <div class="grid-item twoPerColumn"><img src="images/projectsjs/web_1920___8.png"></img>BBCC Development</div>
-
+  
   <div class="grid-item twoPerRow"><img  src="images/projectsjs/web_1920___9.png"></img>Genting Highlands</div>
   <div class="grid-item twoPerRow"><img  src="images/projectsjs/web_1920___10.png"></img>Diamond Mall Cambodia</div>
-
+  
   <div class="grid-item onePerRow"><img    src="images/projectsjs/web_1920___11.png"></img>Shangrila hotel</div>
   <div class="grid-item onePerRow"><img    src="images/projectsjs/web_1920___12.png"></img>Robert Bosch Factory Penang</div>
   <div class="grid-item onePerRow"><img    src="images/projectsjs/web_1920___13.png"></img>Keppel Data Center Sedenak JB</div>
   <div class="grid-item onePerRow"><img    src="images/projectsjs/web_1920___14.png"></img>The Supreme People's Court Vietnam</div>
   <div class="grid-item onePerRow"><img    src="images/projectsjs/web_1920___15.png"></img>Qipco Tornado Towers Doha</div>
-
+  
   <!--two per column, 3 per column-->
   <div class="grid-item twoPerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___16.png"></img>MINDEF HQ Brunei</div>
   <div class="grid-item twoPerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___17.png"></img>Shangri la hotel"</div>
   <div class="grid-item threePerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___18.png"></img>HBK Qatar</div>
   <div class="grid-item threePerRow"><img style="height:90%!important;"  src="images/projectsjs/web_1920___19.png"></img>Thompson Hospital Kota Damansara Selangor</div>
   <div class="grid-item threePerRow"><img style="height:90%!important;"src="images/projectsjs/web_1920___20.png"></img>Doha Metroline Qatar</div>
-
+  
   <div class="grid-item threePerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___21.png"></img>Suria KLCC</div>
   <div class="grid-item threePerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___22.png"></img>Braun Penang</div>
   <div class="grid-item threePerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___23.png"></img>FIFA Al-Bayt Stadium Qatar</div>
-
-
+  
+  
   <!--two per column, 3 per column-->
   <div class="grid-item twoPerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___24.png"></img>Pavillion Damansara</div>
   <div class="grid-item twoPerRow"><img style="height:90%!important;" src="images/projectsjs/web_1920___25.png"></img>Chile Hydroelectric Power Station Alto Maipo</div>
   <div class="grid-item onePerRow"><img  src="images/projectsjs/web_1920___26.png"></img>MCC Territory Transport Interchange Manakau</div>
-
-
 </div>
+
+
 </body>
 <div id="mixdev"></div>
 <div id="highrise"></div>
@@ -123,24 +126,24 @@
 <div id="hotel"></div>
 <div id="commercial"></div>
 <div id="others"></div>
-
 <script>
-  $(document).ready( function() {
-    $("#mixdev").load("mixeddevelopment.html");
-    $("#highrise").load("highrise.html");
-    $("#factory").load("factory.html");
-    $("#infrastructure").load("infrastructure.html");
-    $("#hospital").load("hospital.html");
-    $("#airport").load("airport.html");
-    $("#university").load("university.html");
-    $("#mall").load("mall.html");
-    $("#bank").load("bank.html");
-    $("#residential").load("residential2.html");
-    $("#stadium").load("stadium.html");
-    $("#hotel").load("hotel.html");
-    $("#commercial").load("commercial.html");
-    $("#others").load("others.html");
-  });
+    $(document).ready( function() {
+      $("#mixdev").load("mixeddevelopment.html");
+      $("#highrise").load("highrise.html");
+      $("#factory").load("factory.html");
+      $("#infrastructure").load("infrastructure.html");
+      $("#hospital").load("hospital.html");
+      $("#airport").load("airport.html");
+      $("#university").load("university.html");
+      $("#mall").load("mall.html");
+      $("#bank").load("bank.html");
+      $("#residential").load("residential2.html");
+      $("#stadium").load("stadium.html");
+      $("#hotel").load("hotel.html");
+      $("#commercial").load("commercial.html");
+      $("#others").load("others.html");
+    });
 
 </script>
+
 </html>
