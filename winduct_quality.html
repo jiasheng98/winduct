@@ -4,21 +4,6 @@
         <section class="p-b-40 p-t-40 xs-p-b-20 bg-master-darker" id ="ftr"></section>
 
         <script>
-$(window).scroll(function() {
-    var fixedBottom = $("#site-header");
-    var fixedBottomm = $("#categories-parent");
-    var fixedBottommm = $("#content");
-    if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
-        fixedBottom.css("opacity", 0 );
-        fixedBottomm.css("opacity", 0 );
-    } else {
-        fixedBottom.css("opacity", 1 );
-        fixedBottomm.css("opacity", 1 );
-    }
-});
-</script>
-
-        <script>
                       (function(){
 
 var doc = document.documentElement;
@@ -56,7 +41,7 @@ var checkScroll = function() {
 };
 
 var toggleHeader = function(direction, curScroll) {
-  if (direction === 2 && curScroll > 100000000) { 
+  if (direction === 2 && curScroll > 2000) { 
     
     //replace 52 with the height of your header in px
 
