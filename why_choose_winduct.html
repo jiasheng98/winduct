@@ -40,7 +40,7 @@ prevScroll = curScroll;
 };
 
 var toggleHeader = function(direction, curScroll) {
-if (direction === 2 && curScroll > 1000) { 
+if (direction === 2 && curScroll > 100000000) { 
 
 //replace 52 with the height of your header in px
 
@@ -57,4 +57,18 @@ window.addEventListener('scroll', checkScroll);
 
 })();
 </script>
+<script>
+    $(window).scroll(function() {
+        var fixedBottom = $("#site-header");
+        var fixedBottomm = $("#categories-parent");
+        var fixedBottommm = $("#content");
+        if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
+            fixedBottom.css("opacity", 0 );
+            fixedBottomm.css("opacity", 0 );
+        } else {
+            fixedBottom.css("opacity", 1 );
+            fixedBottomm.css("opacity", 1 );
+        }
+    });
+    </script>
 </body><!-- InstanceEnd --></html>
