@@ -580,7 +580,7 @@ $(window).scroll(function() {
     var fixedBottom = $("#site-header");
     var fixedBottomm = $("#categories-parent");
     var fixedBottommm = $("#content");
-    if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
+    if ($('#content').height() <= ($(window).height() + $(window).scrollTop())) {
         fixedBottom.css("opacity", 0 );
         fixedBottomm.css("opacity", 0 );
     } else {
