@@ -645,7 +645,7 @@
                       </div>
                      
                       <a class="prev" onclick="minusSlides(2)" style="text-align:left!important;">&#10094;</a>
-                      <a class="next" onclick="plusSlides(0)" style="text-align:right!important;margin-right:15px;">&#10095;</a>
+                      <a class="next" id="next" onclick="plusSlides(0)" style="text-align:right!important;margin-right:15px;">&#10095;</a>
 
               
                       <div class="caption-container">
@@ -817,7 +817,6 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
     slideIndex++;
-    // setTimeout(showSlides, 5000);
 }
 
                     function plusSlides(n) {
@@ -886,7 +885,17 @@ window.addEventListener('scroll', checkScroll);
 
 })();
 
+
         </script>
+
+<script>
+  setInterval(NextClick, 3000);
+  
+  function NextClick() {
+    $( "#next" ).click();
+  }
+  </script>
+
 
 </body>
 
