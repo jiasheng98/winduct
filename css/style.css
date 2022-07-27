@@ -1218,10 +1218,10 @@ width: 75%;
     font-size:80px;
     color: #ab0000!important;
 	font-weight:bolder;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	/* font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; */
 	/* text-shadow: -5px 5px 1px #000;*/
-	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;
+	/* -webkit-text-stroke-width: 1px; */
+   /* -webkit-text-stroke-color: white; */
 
 }
 
