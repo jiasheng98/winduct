@@ -10586,7 +10586,7 @@ nav>.container {
     object-position: top;
 }
 
-p, span {
+p, span, li {
     font-size: .8rem !important;
     line-height: 25px !important;
 }
@@ -10594,7 +10594,7 @@ p, span {
 
 
 @media (min-width: 768px) {
-    p, span {
+    p, span, li {
         font-size: 1rem !important;
         line-height: 30px !important;
     }
