@@ -906,7 +906,14 @@ $( ".slide-img" ).hover(
   );
 
 
+  $(".slide-img").on({ 'touchstart' : 
+  function() {
+      clearInterval(NextClickFunction);
+    }, function() {
+      NextClickFunction = setInterval(NextClick, 3000);
+    }
 
+});
 
   </script>
 
