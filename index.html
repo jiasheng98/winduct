@@ -889,11 +889,25 @@ window.addEventListener('scroll', checkScroll);
         </script>
 
 <script>
-  setInterval(NextClick, 3000);
+
   
   function NextClick() {
     $( "#next" ).click();
   }
+
+  var NextClickFunction = setInterval(NextClick, 3000);
+
+$( ".slide-img" ).hover(
+    function() {
+      clearInterval(NextClickFunction);
+    }, function() {
+      NextClickFunction = setInterval(NextClick, 3000);
+    }
+  );
+
+
+
+
   </script>
 
 
