@@ -904,16 +904,14 @@ $( ".slide-img" ).hover(
       NextClickFunction = setInterval(NextClick, 3000);
     }
   );
-
-
-  $(".slide-img").on({ 'touchstart' : 
-  function() {
+  
+  $( ".prev, .next" ).hover(
+    function() {
       clearInterval(NextClickFunction);
     }, function() {
       NextClickFunction = setInterval(NextClick, 3000);
     }
-
-});
+  );
 
   </script>
 
