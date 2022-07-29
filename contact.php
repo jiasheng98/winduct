@@ -11,7 +11,7 @@
     <meta name=og:url content="http://www.winduct.com/contact.html" />
     <meta name=og:title content="<strong>WinDuct®</strong> - Get In Touch With Us">
     <meta name=og:description content="We located in at No 27, Jalan Pengacara U1/48, Section U1, Temasya Industrial Park, 40150 Shah Alam, Selangor Darul Ehsan,Malaysia.">
-    <meta name=rights content=<strong>WinDuct®</strong>>
+    <meta name=rights content=WinDuct®/>
     <meta property="og:site_name" content="<strong>WinDuct®</strong> - Get In Touch With Us" />
     <meta name="googlebot" content="index,follow" />
     <meta name="robots" content="follow, all" />
