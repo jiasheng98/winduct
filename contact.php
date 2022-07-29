@@ -5,7 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><strong>WinDuct®</strong> - Get In Touch With Us</title>
+    <title>WinDuct® - Get In Touch With Us</title>
     <meta name=keywords content="sales, contact us, get in touch, WinDuct">
     <meta name=description content="We located in at No 27, Jalan Pengacara U1/48, Section U1, Temasya Industrial Park, 40150 Shah Alam, Selangor Darul Ehsan,Malaysia.">
     <meta name=og:url content="http://www.winduct.com/contact.html" />
