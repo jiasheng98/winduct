@@ -162,7 +162,7 @@
                                 </ul>
                             </nav>
                         </li>
-                        <li class="classic"><a href="javascript:;" > <strong>WinDuct®</strong> <i class="pg-arrow_minimize m-l-5"></i> </a>
+                        <li class="classic"><a href="javascript:;" > WinDuct® <i class="pg-arrow_minimize m-l-5"></i> </a>
                             <nav class="classic "> <span class="arrow"></span>
                                 <ul>
                                     <li><a href="winduct_overview.html"><strong>WinDuct®</strong> Overview</a></li>
