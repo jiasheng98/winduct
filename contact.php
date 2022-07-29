@@ -5,14 +5,14 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>WinDuct® - Get In Touch With Us</title>
+    <title><strong>WinDuct®</strong> - Get In Touch With Us</title>
     <meta name=keywords content="sales, contact us, get in touch, WinDuct">
     <meta name=description content="We located in at No 27, Jalan Pengacara U1/48, Section U1, Temasya Industrial Park, 40150 Shah Alam, Selangor Darul Ehsan,Malaysia.">
     <meta name=og:url content="http://www.winduct.com/contact.html" />
-    <meta name=og:title content="WinDuct® - Get In Touch With Us">
+    <meta name=og:title content="<strong>WinDuct®</strong> - Get In Touch With Us">
     <meta name=og:description content="We located in at No 27, Jalan Pengacara U1/48, Section U1, Temasya Industrial Park, 40150 Shah Alam, Selangor Darul Ehsan,Malaysia.">
-    <meta name=rights content=WinDuct®>
-    <meta property="og:site_name" content="WinDuct® - Get In Touch With Us" />
+    <meta name=rights content=<strong>WinDuct®</strong>>
+    <meta property="og:site_name" content="<strong>WinDuct®</strong> - Get In Touch With Us" />
     <meta name="googlebot" content="index,follow" />
     <meta name="robots" content="follow, all" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -156,16 +156,16 @@
                         <li class="classic"><a href="javascript:;" > About Us <i class="pg-arrow_minimize m-l-5"></i> </a>
                             <nav class="classic "> <span class="arrow"></span>
                                 <ul>
-                                    <li><a href="about_winduct.html">About WinDuct®</a></li>
-                                    <li><a href="why_choose_winduct.html">Why Choose WinDuct®?</a></li>
-                                    <li><a href="winduct_quality.html">WinDuct® Quality Assurance</a></li>
+                                    <li><a href="about_winduct.html">About <strong>WinDuct®</strong></a></li>
+                                    <li><a href="why_choose_winduct.html">Why Choose <strong>WinDuct®</strong>?</a></li>
+                                    <li><a href="winduct_quality.html"><strong>WinDuct®</strong> Quality Assurance</a></li>
                                 </ul>
                             </nav>
                         </li>
-                        <li class="classic"><a href="javascript:;" > WinDuct® <i class="pg-arrow_minimize m-l-5"></i> </a>
+                        <li class="classic"><a href="javascript:;" > <strong>WinDuct®</strong> <i class="pg-arrow_minimize m-l-5"></i> </a>
                             <nav class="classic "> <span class="arrow"></span>
                                 <ul>
-                                    <li><a href="winduct_overview.html">WinDuct® Overview</a></li>
+                                    <li><a href="winduct_overview.html"><strong>WinDuct®</strong> Overview</a></li>
                                     <li><a href="intumescent_coating.html">Intumescent Coating</a></li>
                                     <li><a href="specifications.html">Specifications</a></li>
                                     <li><a href="method_statement.html">Method Statement</a></li>
