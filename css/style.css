@@ -10669,3 +10669,11 @@ background: black;
   .slides-width {
     max-width: 1000px !important;
   }
+
+
+  .text-shadow-carousel {
+    color: #ACACAC !important;
+    text-shadow: -5px 1px 2px black;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+  }
