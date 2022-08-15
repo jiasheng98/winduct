@@ -10674,7 +10674,7 @@ background: black;
   .text-shadow-carousel {
     color: #ACACAC !important;
     text-shadow: -5px 1px 2px black;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1px;
+    /* -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px; */
     font-weight: bold;
   }
