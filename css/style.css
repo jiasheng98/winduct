@@ -9588,7 +9588,7 @@ sup.dollar {
     .header.light-solid .menu-content.mobile-dark a:not(.btn),
     .header.transparent-dark .menu-content.mobile-dark a:not(.btn),
     .header.transparent-light .menu-content.mobile-dark a:not(.btn) {
-        color: #788195!important;
+        color: white !important;
     }
     .header.dark .menu-content.mobile-dark a:not(.btn):hover,
     .header.light .menu-content.mobile-dark a:not(.btn):hover,
@@ -9612,7 +9612,7 @@ sup.dollar {
     .header.light-solid .menu-content.mobile-dark a:not(.btn):focus,
     .header.transparent-dark .menu-content.mobile-dark a:not(.btn):focus,
     .header.transparent-light .menu-content.mobile-dark a:not(.btn):focus {
-        color: #788195;
+        color: white;
     }
     .header.dark .menu-content.mobile-dark a:not(.btn).active,
     .header.light .menu-content.mobile-dark a:not(.btn).active,
@@ -9626,14 +9626,14 @@ sup.dollar {
     .header.light-solid .menu-content.mobile-dark.mobile-dark p,
     .header.transparent-dark .menu-content.mobile-dark.mobile-dark p,
     .header.transparent-light .menu-content.mobile-dark.mobile-dark p {
-        color: #788195;
+        color: white;
     }
     .header.dark .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn),
     .header.light .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn),
     .header.light-solid .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn),
     .header.transparent-dark .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn),
     .header.transparent-light .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn) {
-        color: #788195;
+        color: white;
     }
     .header.dark .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn):hover,
     .header.light .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn):hover,
@@ -9657,7 +9657,7 @@ sup.dollar {
     .header.light-solid .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn):focus,
     .header.transparent-dark .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn):focus,
     .header.transparent-light .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn):focus {
-        color: #788195;
+        color: white;
     }
     .header.dark .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn).active,
     .header.light .menu-content.mobile-dark.mobile-dark .menu>li>a:not(.btn).active,
