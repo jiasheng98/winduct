@@ -10682,3 +10682,23 @@ background: black;
     -webkit-text-stroke-width: 1px; */
     font-weight: bold;
   }
+
+  .footer-container-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-container-logo>img {
+    width: 80% !important;
+  }
+
+  @media (min-width: 768px) {
+    .footer-container-logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+    
+      .footer-container-logo>img {
+        width: 12% !important;
+      }
+  }
