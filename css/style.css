@@ -10694,12 +10694,13 @@ background: black;
 
   @media (min-width: 768px) {
     .footer-container-logo {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
         float: right !important;
       }
     
       .footer-container-logo>img {
         width: 12% !important;
+        object-fit: contain;
       }
   }
