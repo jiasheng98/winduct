@@ -308,7 +308,7 @@ background-color: black!important;
     <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'Featured Projects')">Featured Projects</a>
   <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'Mixed Development')" >Mixed Development</a>
  <a href="#" class="list-group-item list-group-item-action pull-right" onclick="openProject(this,'High Rise Building')">High Rise Building</a>
-  <a href="#" class="list-group-item list-group-item-action float-start" onclick="openProject(this,'Shopping Malls')">Shopping Malls</a>
+  <a href="#" class="list-group-item list-group-item-action float-start" onclick="openProject(this,'Shopping Mall')">Shopping Mall</a>
   <a href="#" class="list-group-item list-group-item-action float-start" onclick="openProject(this,'Hotel')">Hotel</a>
   <a href="#" class="list-group-item list-group-item-action float-start" onclick="openProject(this,'Hospital')">Hospital</a>
   <a href="#" class="list-group-item list-group-item-action float-start" onclick="openProject(this,'Airport')">Airport</a>
@@ -316,7 +316,7 @@ background-color: black!important;
   <a href="#" class="list-group-item list-group-item-action float-end" onclick="openProject(this,'Commercial')">Commercial</a>
   <a href="#" class="list-group-item list-group-item-action float-end" onclick="openProject(this,'Residential')">Residential</a>
   <a class="list-group-item float-end" onclick="openProject(this,'Bank, Administrative & Government Buildings')">Bank, Administrative & Government Buildings</a>
-  <a class="list-group-item float-end" onclick="openProject(this,'Factory, Warehouses and Distribution Centre')">Factory, Warehouses and Distribution Centre</a>
+  <a class="list-group-item float-end" onclick="openProject(this,'Factory, Warehouse and Distribution Centre')">Factory, Warehouse and Distribution Centre</a>
   <a class="list-group-item float-end" onclick="openProject(this,'Stadium & Public Ammenities')">Stadium & Public Ammenities</a>
   <a class="list-group-item float-end" onclick="openProject(this,'University & Education Centre')">University & Education Centre</a>
   <a class="list-group-item float-end" onclick="openProject(this,'Others')">Others</a>
@@ -400,7 +400,7 @@ $("#categories").mouseleave(function() {
     $ ('.page').show();
 
   $(".projects-menubar").show();
-  openProject(this,'Shopping Malls')
+  openProject(this,'Shopping Mall')
   //enable scrolling
   $('html, body').css({
     'overflow': 'auto',
@@ -474,14 +474,14 @@ $("#categories").mouseleave(function() {
       if (text === 'Featured Projects') $("#content").load("featured_project.html");
       if (text === 'Mixed Development') $("#content").load("mixeddevelopment.html");
       if (text === 'High Rise Building') $("#content").load("highrise.html");
-      if (text === 'Shopping Malls') $("#content").load("mall.html");
+      if (text === 'Shopping Mall') $("#content").load("mall.html");
       if (text === 'Hotel') $("#content").load("hotel.html");
       if (text === 'Hospital') $("#content").load("hospital.html");
       if (text === 'Airport') $("#content").load("airport.html");
       if (text === 'Commercial') $("#content").load("commercial.html");
       if (text === 'Residential') $("#content").load("residential2.html");
       if (text === 'Bank, Administrative & Government Buildings') $("#content").load("bank.html");
-      if (text === 'Factory, Warehouses and Distribution Centre') $("#content").load("factory.html");
+      if (text === 'Factory, Warehouse and Distribution Centre') $("#content").load("factory.html");
       if (text === 'Infrastructure') $("#content").load("infrastructure.html");
       if (text === 'Stadium & Public Ammenities') $("#content").load("stadium.html"); //new
       if (text === 'University & Education Centre') $("#content").load("university.html"); //new
